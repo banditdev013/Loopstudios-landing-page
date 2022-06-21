@@ -359,10 +359,10 @@ footer .footer-right{
         left: 0;
         padding-left: 5rem;
         text-transform: uppercase;
+        z-index: 9;
     }
     nav ul li {
         padding: 1rem 0;
-        transform: translateY(50%);
     }
     nav ul li a::before {
         bottom: 0;
@@ -372,7 +372,7 @@ footer .footer-right{
         width: 5rem;
     }
     nav ul li a {
-        font-size: 2rem;
+        font-size: 1.6rem;
         font-family: var(--font-josefin);
         letter-spacing: 3px;
     }
@@ -464,7 +464,7 @@ footer .footer-right{
         margin: 0 2rem;
     }
     .hero h1{
-        font-size: 10vw;
+        font-size: 9vw;
     }
     .content-1 {
         padding: 8rem 2rem;
